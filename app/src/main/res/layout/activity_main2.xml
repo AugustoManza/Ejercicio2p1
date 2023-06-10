@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/txtedad"
+        android:layout_width="312dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="#FFFB14"
+        android:backgroundTintMode="screen"
+        android:ems="10"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="none"
+        android:textIsSelectable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEdad2" />
+
+    <EditText
+        android:id="@+id/txtnom"
+        android:layout_width="312dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="none"
+        android:textIsSelectable="false"
+        android:background="#FFFD45"
+        android:backgroundTintMode="src_over"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNombre2" />
+
+    <EditText
+        android:id="@+id/txtcorreo"
+        android:layout_width="312dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="#FFFD45"
+        android:backgroundTintMode="screen"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="none"
+        android:textIsSelectable="false"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCorreo2" />
+
+    <EditText
+        android:id="@+id/txtapel"
+        android:layout_width="312dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFFD45"
+        android:backgroundTintMode="screen"
+        android:ems="10"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="none"
+        android:textIsSelectable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etApel2" />
+
+    <TextView
+        android:id="@+id/etNombre2"
+        android:layout_width="298dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Nombre"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/etApel2"
+        android:layout_width="298dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:text="Apellidos"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtnom" />
+
+    <TextView
+        android:id="@+id/etEdad2"
+        android:layout_width="298dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Edad"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtapel" />
+
+    <TextView
+        android:id="@+id/etCorreo2"
+        android:layout_width="298dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:text="Correo"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtedad" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
