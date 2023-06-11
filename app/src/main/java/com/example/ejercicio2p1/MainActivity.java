@@ -45,8 +45,20 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("correo",email);
                 startActivity(intent);
 
+                Limpiar();
             }
         });
+
+
+
+    }
+
+    private void Limpiar() {
+
+        nombre.setText("");
+        apellidos.setText("");
+        edad.setText("");
+        correo.setText("");
 
     }
 }
